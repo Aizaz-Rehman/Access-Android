@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957341183615",
+    "project_id": "accessandroidthroughsms",
+    "storage_bucket": "accessandroidthroughsms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957341183615:android:70ca139ec12eb87c9a194a",
+        "android_client_info": {
+          "package_name": "com.aizaz.accessandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957341183615-s7e1e8cugnqc99glr3toq227jgg1da8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDazJB66tipotJdF5wblJcI9ma3jLXIbJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957341183615-s7e1e8cugnqc99glr3toq227jgg1da8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

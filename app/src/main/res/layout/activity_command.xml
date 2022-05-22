@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tableLayout1"
+    android:background="@drawable/bg"
+    tools:context=".CommandActivity">
+
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_span="3"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Commands List"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="@drawable/btn_bg" />
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="Features"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="Commands"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="Silent Phone Mode"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="mms"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="General Phone Mode"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="mmg"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="Vibrate Phone Mode"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="mmv"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorBlack"/>
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+    <!-- Row 3 with 2 columns -->
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView010"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="Call Logs"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="clg"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView011"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="SMS History"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="sms"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"/>
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView014"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="Find Location"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/TextView15"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:gravity="center"
+            android:padding="12dip"
+            android:text="loc"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack" />
+
+    </TableRow>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:padding="12dip"
+            android:text="Search Contacts"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_weight="1"
+            android:background="#38ACEC"
+            android:padding="12dip"
+            android:text="cc Contact Name"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack" />
+
+    </TableRow>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#00ccff" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_span="3"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Syntax :: Code + command"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+</TableLayout>

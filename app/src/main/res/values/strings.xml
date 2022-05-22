@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Access Android Phone Through SMS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Help_text">Access Android Phone Through SMS provide additional SMS sending and receiving functionality features.
+        Here You can Remotely Change Profile mode of phone, search contacts, find current location of phone and know about the
+        call log and sms history of your phone. So Write "mm s" for Silent "mm g" for General and "mm v" command for Vibrate mode.
+        Write "cc ali" to search Ali Contact number and vice verse.
+
+        Hope you Will Enjoy..</string>
+    <string name="common_signin_button_text">SIGN IN</string>
+</resources>
